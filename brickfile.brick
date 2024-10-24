@@ -1,0 +1,14 @@
+// system declarators
+!commandline
+---
+// functions or things that don't run immediately
+function functionname.argument1.argument2 {
+    back argument1 + argument2;
+}
+---
+// storage setup
+varname; var2name; // only declerates
+var3name."string with spaces"; // declerates and sets
+---
+// code that runs on startup
+cl.out(functionname.(5+2).var2name)
